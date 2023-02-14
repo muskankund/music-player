@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zeyada', cursive;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(87, 56, 56);
+}
+
+h3,
+h4 {
+    font-weight: 400px;
+    color: rgb(49, 116, 63);
+}
+
+
+.App {
+    transition: all 0.5sec ease;
+}
+
+.library-active {
+    margin-left: 30%;
+}
+
+@import './player';
+@import './song';
+@import './library.scss';
+@import './nav.scss';
